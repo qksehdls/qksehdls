@@ -1,39 +1,61 @@
 <!doctype html>
 <html>
 <head>
-  <title>아이즈원</title>
-  <meta charset="utf-8">
+    <title>아이즈원</title>
+    <meta charset="utf-8">
+  <style>
+
+  body{
+    margin:0px;
+  }
+  h1 {
+    text-align : center;
+     font-size : 50px;
+     border-bottom: 1px solid black;
+     margin:0;
+     padding : 20px;
+  }
+
+  a{
+    color : black;
+    text-decoration: none;
+  }
+
+  ul{
+    text-align : left;
+    border-right : 1px solid black;
+    width:100px;
+    margin:0px;
+    padding:20px;
+    padding-left:35px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #article{
+    padding-left:25px;
+  }
+  </style>
 </head>
 
 
 
-<body>
+  <body>
   <h1><a href="index.html">IZ*ONE</a></h1>
 
+  <div id="grid">
   <ul>
+    <h3>메뉴</h3>
     <li><a href="1.html">방송활동</a></li>
-    <li><a href="2.html">V LIVE</a></li>
+    <li><a href="2.html">V Live</a></li>
     <li><a href="3.html">ENOZI CAM</a></li>
   </ul>
 
-  <h1><a href="http://iz-one.co.kr/" target="_blank" title="IZ*ONE">IZ*ONE</a></h1><br>
-
-  <img src="izone_logo.jpg" width="25%">
-
-  <p>장원영<br>
-  미야와키 사쿠라<br>
-  조유리<br>
-  최예나<br>
-  강혜원<br>
-  혼다 히토미<br>
-  안유진<br>
-  권은비<br>
-  야부키 나코<br>
-  김민주<br>
-  김채원<br>
-  이채연<br>
-  </p>
-</body>
-
-
+  <div id="article">
+  <h2>IZ*ONE</h2>
+  <a href="http://iz-one.co.kr/" target="_blank" title="iz-one.co.kr"><img src="izone_logo.jpg" width="15%"></a>
+    </div>
+  </div>
+  </body>
 </html>
